@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-family: 微軟正黑體;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#fff;
+}
+.nav-link,
+.navbar-brand {
+  color: #515151;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-brand:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end; //讓導覽列排至尾部(end)
+}
+.header {
+  background-image: url('../images/sea.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* .overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+} */
+.description {
+  left: 20%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -55%);
+  text-align: left;
+}
+.description h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 900;
+}
+.description p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.description a{
+  width: 150px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #edc00b;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+.container{
+  min-height: 100%;
+  min-width: 90%;
+  left: 0;
+  top: 0;
+}
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.feature-title {
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.features .title{
+  margin-top: -10px;
+}
+.features .title01{
+  margin-top: 23px;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  height : 270px;
+  width : 350px;
+  border-radius: 10px;
+  /* cursor: pointer; */
+}
+/* .features .card{
+  cursor: pointer;
+} */
+.features .land{
+  display: inline-block;
+}
+.features .btn{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+/* .features1 {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+} */
+.features1 .card{
+  border-radius: 10px;
+}
+.features1 img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  height : 270px;
+  width : 350px;
+  border-radius: 10px 10px 0 0;
+  /* cursor: pointer; */
+}
+/* .features .card{
+  cursor: pointer;
+} */
+.features1 .land{
+  display: inline-block;
+}
+.features1 .btn{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.page-footer {
+  background-color: #62615f;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+.form-control, input {
+    border-radius: 0;
+}
+.form_title{
+  color: #fff;
+}
+.btn {
+  background-color: #3a4678;
+  border: 1px solid #3a4678;
+  color: #fff; /*同 #ffffff，白色 */
+  margin-top: 0px;
+}
+.btn:hover {
+  background-color: #4b5ca4; /*同#333333，偏黑色 */
+  border: 1px solid #4b5ca4;
+}
+
+@media (max-width: 575.98px) {
+  /* .navbar .navbar-toggler{
+    border-color: rgba(75,92,164);
+  } */
+  .navbar .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(75,92,164)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .description {
+    left: 5%;
+    padding: 0 5px;
+    position: absolute;
+    top: 25%;
+    transform: translate(-5%, -5%);
+    text-align: center;
+  }
+  .description input{
+    width: 78%;
+    margin-left: 10px;
+  }
+  .description h1 {
+    font-size: 2em;
+    padding-top: 50px;
+  }
+  .description p {
+    font-size: 1.2em;
+  }
+  .description button{
+    margin-left: 0px;
+  }
+  .features {
+    margin: 0;
+  }
+  .features .row1{
+    margin: 0 auto 0 auto;
+  }
+  .features .feature-title{
+    text-align: center;
+  }
+  .features .card{
+    margin: 0 auto 14px auto;
+  }
+  .box{
+    margin-top: -8px;
+  }
+.show-cart li {
+  display: flex;
+}
