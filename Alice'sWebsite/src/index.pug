@@ -1,0 +1,185 @@
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.at_top
+  .container
+    a.navbar-brand(href='#header_index')
+      img.logo(src="https://i.imgur.com/wTyr8Vj.png", alt="")
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarNav.collapse.navbar-collapse
+      ul.nav.navbar-nav.ml-auto
+        li.nav-item.active.right
+          a.nav-link(href='#section_about') About
+        li.nav-item.active.right
+          a.nav-link(href='#section_experience') Experience
+        li.nav-item.active.right
+          a.nav-link(href='#section_skills') Skills
+        li.nav-item.active.right
+          a.nav-link(href='#section_portfolio') Portfolio
+        li.nav-item.active
+          a.nav-link(href='#section_contact') Contact
+header#header_index
+  .container
+    .headfont
+      h3 Hello,
+      h1 I am Wei-Yi Chang
+      h3 UI/UX Designer
+    .bigcircle
+      img.imgcircle(src="https://i.imgur.com/0MucnT3.png", alt="")
+      .smallcircle
+section#section_about
+  .container
+    .row
+      .col-md-12
+        h2 About me
+    .row.content
+      .col-md-4
+        img.iphoto(src="https://i.imgur.com/A0KFHMw.png", alt="")
+        //- .backrectangle
+      .col-md-8
+        .topL
+        .fontgroup
+          p.font 我是張濰薏，西元1994年生，畢業於逢甲大學的運輸科技與管理學系，個性積極樂觀，富有好奇心、喜歡嘗試新的事物，並樂於創新。
+          p.font.ftop 畢業後從事教職一年，為提升自己的專業技能，參加了職訓局的課程開始學習網頁設計，六個月扎實的訓練使我具備前端程式撰寫、UI/UX設計的能力，也讓我對網頁設計產生極大的興趣。
+          p.font.ftop 未來期許自己可以成為一名網頁設計師，透過設計改善用戶體驗，打造人性化的產品，並持續不間斷的學習，了解設計趨勢，強化企劃能力與建構技術，盡力為公司創造更高的價值。
+        .bottomLtop
+section#section_experience
+  .container
+    .row
+      .col-md-12
+        h2 Experience
+    .row.content
+      .col-md-4
+        .works.work_y
+          .lines
+            h4.date 104/02~104/03
+            h4.work 台灣高鐵-工讀生
+            .abilities
+              h5.ability 具備顧客接待與需求服務能力
+                .circles
+              h5.ability 具備日常客服事務處理能力
+                .circles
+              h5.ability 具備客訴案件處理能力
+                .circles
+      .col-md-4
+        .works.work_r.work_rtop
+          .lines.line_r
+            h4.date.date_r 106/06~106/07
+            h4.work 鈺齊國際-國外採購專員
+            .abilities
+              h5.ability.ability_r 具備談判與議價技巧
+                .circles.circle_r
+              h5.ability.ability_r 具備外語能力
+                .circles.circle_r
+              h5.ability.ability_r 具備報表與文件檔案資料彙整能力
+                .circles.circle_r
+              h5.ability.ability_r 具備跨部門溝通協調能力
+                .circles.circle_r
+      .col-md-4
+        .works.work_y.work_rtop
+          .lines
+            h4.date 107/02~108/03
+            h4.work 美樂蒂美語-課輔教師
+            .abilities
+              h5.ability 具備提供客戶服務並維護客戶關係能力
+                .circles
+              h5.ability 可妥善處理客戶的問題
+                .circles
+              h5.ability 具備瞭解產業趨勢與服務能力
+                .circles
+              h5.ability 具備行政事務處理能力
+                .circles 
+section#section_skills
+  .container
+    .row
+      .col-md-12
+        h2 Skills
+    .row.content
+      .col-md-6
+        .group
+          .groL
+            h5 HTML&CSS
+            .bar.bar1
+              .bottombar
+                .point.point1
+          .groupL
+            h5 Bootstrap
+            .bar.bar2
+              .bottombar
+                .point.point2
+          .groupL
+            h5 Adobe Photoshop
+            .bar.bar2
+              .bottombar
+                .point.point2
+      .col-md-6
+        .group
+          .groR
+            h5 jQuery
+            .bar.bar3
+              .bottombar
+                .point.point3
+          .groupR
+            h5 Adobe Illustrator
+            .bar.bar2
+              .bottombar
+                .point.point2
+          .groupR
+            h5 Adobe XD
+            .bar.bar4
+              .bottombar
+                .point.point4
+section#section_portfolio
+  .container
+    .row
+      .col-md-12
+        h2 Portfolio
+    .row.content
+      .col-md-12
+        .group
+          .design.designL
+            h5 Web Design
+            .bottom.bottomL
+          .design.designR
+            h5 App Design
+            .bottom.bottomR
+    .row.content_1.miss
+      .col-md-6
+        .picgroup.picgroup1(onclick="location.href='https://cdpn.io/AliceChang/debug/QWwgmVo/DqADdgeEKaqA'")
+          h5.name Furniture Web Design
+          .pic.pic1
+      .col-md-6
+        .picgroup.picgroup1(onclick="location.href='https://cdpn.io/AliceChang/debug/eYmEZGr/NQMzYBNnKbjk'")
+          h5.name Travel Web Design
+          .pic.pic2
+    .row.content_1.content_2
+      .col-md-6
+        .picgroup.picgroup1(onclick="location.href='https://cdpn.io/AliceChang/debug/bGNrXoJ/vPMKKeameozM'")
+          h5.name Food Taichung App Design
+          .pic.pic3
+      .col-md-6
+        .picgroup.picgroup1(onclick="location.href='https://cdpn.io/AliceChang/debug/JjoLXwN/LDMmdEWyRpnk'")
+          h5.name McDonald's App Redesign
+          .pic.pic4
+section#section_contact
+  .container
+    .row.content
+      .col-md-12
+        .group
+          .redline
+            h4 Contact
+            .block
+            .group1
+              .phone
+                i.fas.fa-mobile-alt.phoneicon
+                .font
+                  h6 0921-051-019
+                  h6 Mon~Fri : 8:00~:20:00
+              .mail
+                  i.far.fa-envelope.mailicon
+                  .font
+                    h6 d0249117@gmail.com
+.gotop
+footer#footer
+  h6 Copyright © Wei-Yi Chang 2020
+
+        
+          
