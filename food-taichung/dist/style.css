@@ -40,6 +40,9 @@ header#header_index img {
   width: 100%;
   margin-top: 80px;
 }
+header#header_index .imgtop {
+  margin-top: 50px;
+}
 
 .gotop {
   width: 56px;
@@ -85,7 +88,20 @@ footer#footer h6 {
   margin: 0px;
 }
 
+@media screen and (max-width: 991.98px) {
+  header#header_index .imgtop {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  header#header_index .imgtop {
+    margin-top: 30px;
+  }
+}
 @media screen and (max-width: 575.98px) {
+  header#header_index .imgtop {
+    margin-top: 25px;
+  }
   header#header_index h1 {
     font-size: 32px;
   }
