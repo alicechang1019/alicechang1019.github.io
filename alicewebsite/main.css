@@ -466,6 +466,7 @@ footer#footer h6 {
     width: 110%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
   }
   #header_index .headfont h1 {
     font-size: 40px;
