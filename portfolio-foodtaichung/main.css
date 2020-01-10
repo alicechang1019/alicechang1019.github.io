@@ -97,6 +97,9 @@ footer#footer h6 {
   header#header_index .imgtop {
     margin-top: 30px;
   }
+  .gotop{
+    margin-top: 250px;
+  }
 }
 @media screen and (max-width: 575.98px) {
   header#header_index .imgtop {
