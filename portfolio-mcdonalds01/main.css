@@ -1,0 +1,92 @@
+@charset "UTF-8";
+* {
+  font-family: "Montserrat", sans-serif, "微軟正黑體";
+  position: relative;
+}
+
+body, html {
+  margin: 0px;
+  background-color: #F0F0F0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.at_top {
+  transition: 0.5s;
+  border-bottom: solid 1px transparent;
+}
+nav.navbar.navbar-expand-lg.navbar-light.at_top .navbar-brand .logo {
+  width: 50px;
+  height: 50px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.at_top .nav-link {
+  font-size: 22px;
+  font-weight: regular;
+}
+nav.navbar.navbar-expand-lg.navbar-light.at_top ul.nav.navbar-nav.ml-auto {
+  margin-right: 0;
+}
+nav.navbar.navbar-expand-lg.navbar-light.at_top ul.nav.navbar-nav.ml-auto:hover {
+  color: #E14339;
+  transition: 0.5s;
+}
+nav.navbar.navbar-expand-lg.navbar-light.at_top .right {
+  margin-right: 18px;
+}
+
+header#header_index h1 {
+  text-align: center;
+  margin-top: 180px;
+}
+header#header_index img {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.gotop {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  background-color: #F0F0F0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  top: 500px;
+  right: 3%;
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0.8;
+  display: none;
+}
+.gotop:before, .gotop:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 3.3px;
+  background-color: #E14339;
+}
+.gotop:before {
+  position: absolute;
+  top: 45%;
+  left: 22%;
+  transform: rotate(-50deg);
+}
+.gotop:after {
+  position: absolute;
+  top: 45%;
+  right: 22%;
+  transform: rotate(50deg);
+}
+
+footer#footer {
+  background-color: #EFE5DC;
+  padding: 25px 0px;
+  margin-top: 100px;
+  text-align: center;
+}
+footer#footer h6 {
+  margin: 0px;
+}
+
+@media screen and (max-width: 575.98px) {
+  header#header_index h1 {
+    font-size: 32px;
+  }
+}
