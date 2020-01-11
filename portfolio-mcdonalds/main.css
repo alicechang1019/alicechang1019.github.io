@@ -104,3 +104,8 @@ footer#footer h6 {
     font-size: 32px;
   }
 }
+@media screen and (max-width: 400px) {
+  .gotop{
+    margin-top: 40px;
+  }
+}
