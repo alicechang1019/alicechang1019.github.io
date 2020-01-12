@@ -383,10 +383,13 @@ section#section_contact .group .redline .group1 .phone, section#section_contact 
   justify-content: center;
   align-items: center;
 }
-section#section_contact .group .redline .group1 .phone .font, section#section_contact .group .redline .group1 .mail .font {
-  margin-left: 30px;
+section#section_contact .group .redline .group1 .phone .font {
+  margin-left: 34px;
 }
-section#section_contact .group .redline .group1 .phone .font h6, section#section_contact .group .redline .group1 .mail .font h6 {
+section#section_contact .group .redline .group1 .mail .font1 {
+  margin-left: 29px
+}
+section#section_contact .group .redline .group1 .phone h6, section#section_contact .group .redline .group1 .mail h6 {
   margin: 0px;
   line-height: 24px;
 }
