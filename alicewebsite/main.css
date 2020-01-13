@@ -384,10 +384,10 @@ section#section_contact .group .redline .group1 .phone, section#section_contact 
   align-items: center;
 }
 section#section_contact .group .redline .group1 .phone .font {
-  margin-left: 34px;
+  margin-left: 30px;
 }
 section#section_contact .group .redline .group1 .mail .font1 {
-  margin-left: 29px
+  margin-left: 26px
 }
 section#section_contact .group .redline .group1 .phone h6, section#section_contact .group .redline .group1 .mail h6 {
   margin: 0px;
@@ -396,6 +396,9 @@ section#section_contact .group .redline .group1 .phone h6, section#section_conta
 section#section_contact .group .redline .group1 .phoneicon, section#section_contact .group .redline .group1 .mailicon {
   font-size: 24px;
   color: #E14339;
+}
+section#section_contact .group .redline .group1 .mailicon {
+  margin-left: -5px
 }
 section#section_contact .group .redline h4 {
   z-index: 2;
