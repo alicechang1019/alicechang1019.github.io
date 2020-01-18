@@ -7,7 +7,7 @@ $(window).scroll(function(){
     $(".navbar").css("border-bottom","")
   }
 });
-$("a").click(function(){
+$(".aclick").click(function(){
   var to=$(this).attr("href");
   $("body,html").animate({
     scrollTop: $(to).position().top

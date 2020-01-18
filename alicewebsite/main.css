@@ -27,6 +27,13 @@ nav.navbar.navbar-expand-lg.navbar-light.at_top ul.nav.navbar-nav.ml-auto a:hove
   color: #E14339;
   transition: 0.5s;
 }
+nav.navbar.navbar-expand-lg.navbar-light.at_top ul.nav.navbar-nav.ml-auto .adownload {
+  color: #E14339;
+}
+nav.navbar.navbar-expand-lg.navbar-light.at_top ul.nav.navbar-nav.ml-auto .adownload:hover {
+  color: #E18681;
+  transition: 0.5s;
+}
 nav.navbar.navbar-expand-lg.navbar-light.at_top .right {
   margin-right: 18px;
 }
