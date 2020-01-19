@@ -7,7 +7,7 @@ $(window).scroll(function(){
     $(".navbar").css("border-bottom","")
   }
 });
-$(".aclick").click(function(){
+$(".navbar-brand,.aclick").click(function(){
   var to=$(this).attr("href");
   $("body,html").animate({
     scrollTop: $(to).position().top
@@ -107,7 +107,7 @@ $(window).scroll(function(){
     $(".gotop").fadeOut("fast");
   }
 });
-$(".aclick").click(function(){
+$(".aclick,.adownload").click(function(){
   if($(window).width()<991.98){
     $(".navbar-toggler").trigger("click");
   };
