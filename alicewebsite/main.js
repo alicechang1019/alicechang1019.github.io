@@ -107,3 +107,8 @@ $(window).scroll(function(){
     $(".gotop").fadeOut("fast");
   }
 });
+$(".aclick").click(function(){
+  if($(window).width()<991.98){
+    $(".navbar-toggler").trigger("click");
+  };
+});
