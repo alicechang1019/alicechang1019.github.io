@@ -22,7 +22,7 @@ $(window).scroll(function(){
 $("#single_image").on("click", function() {
   $.fancybox.open({
    type : 'html',
-   src  : '<div class="fancybox-scroll"><img src="' + this.href + '" width="100%"/></div>',
+   src  : '<div class="fancybox-scroll"><img src="' + this.href + ' " width="100%"/></div>',
     opts : {
       smallBtn : false,
       idleTime : false
