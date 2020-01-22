@@ -19,3 +19,14 @@ $(window).scroll(function(){
     $(".gotop").fadeOut("fast")
   }
 });
+$("#single_image").on("click", function() {
+  $.fancybox.open({
+   type : 'html',
+   src  : '<div class="fancybox-scroll"><img src="' + this.href + ' " width="100%"/></div>',
+    opts : {
+      smallBtn : false,
+      idleTime : false
+    }
+  });
+  return false;
+});
